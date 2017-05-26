@@ -1,0 +1,82 @@
+body{
+	background-color:#4dffa6;
+}
+textarea{
+	width:400px;
+	height:80px;
+	background-color: :fff;
+	resize:none;
+}
+
+button{
+	width:100px;
+	height:30px;
+	background-color: #282828;
+	border:none;
+	color:white;
+	font-weight:400;
+	cursor:pointer;
+}
+
+.comment-box{
+	width:815px;
+	padding:20px;
+	margin-bottom:4px;
+	background-color:#ffdd99;
+	border-radius:4px;
+	/*Will position the comment box relative to its inner div, which should be placed as absolute*/
+	position:relative;
+}
+
+/*Styles paragraphs within the comment box class*/
+.comment-box p{
+	font-family:arial;
+	font-size:14px;
+	line-height:16px;
+	color:#282828;
+	font-weight:100;
+}
+
+/*Primary styles edit button*/
+.edit-form{
+	/*Will position the edit button inside the parent container*/
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+/*Styles the Edit button*/
+.edit-form button{
+	width:40px;
+	height:20px;
+	color:#282828;
+	background-color:#ffe6b3;
+	opacity:0.7;
+}
+
+/*Styles the button on hover*/
+.edit-form button:hover{
+	opacity:1;
+}
+
+/*Primary styles edit button*/
+.delete-form{
+	/*Will position the edit button inside the parent container*/
+	position:absolute;
+	top: 0px;
+	right: 60px;
+}
+
+/*Styles the button*/
+.delete-form button{
+	width:40px;
+	height:20px;
+	color:#282828;
+	background-color:#ffe6b3;
+	opacity:0.7;
+}
+
+/*Styles the button on hover*/
+.delete-form button:hover{
+	opacity:1;
+}
